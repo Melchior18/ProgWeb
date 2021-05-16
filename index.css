@@ -1,0 +1,328 @@
+.icon_liens{
+    width: 15%;
+    }
+
+.icon_liens img {
+        width:7%;
+    }
+.site_info img{
+    width: 33px;
+}
+.nom_site{
+    color: #000;
+    font-weight: 600;
+    font-size: 1.714rem;
+    line-height: 1;
+    letter-spacing: 0.025em;
+}
+.sous_site{
+color: #999999;
+font-size: 0.857rem;
+font-weight: 300;
+margin-top: -0.3rem;
+}
+.telNumber{
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 1rem;
+    color: #666666;
+}
+.text-dark{
+    color: #000;
+    font-size: 1rem
+}
+.bar img{
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    width: 22*14px;
+}
+.site_web{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.site_info{
+    display: flex;
+    flex-direction: row;
+}
+body{
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    line-height: 2.1428;
+    color: #666666;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 2%;
+    margin-bottom: 8%;
+    font-family: 'Poppins', sans-serif;
+}
+.des_site{
+    margin-left: 10%;
+}
+.twitter{
+    padding: 5%;
+}
+.facebook{
+    padding: 5%;
+}
+.google{
+    padding: 5%;
+}
+.dribble{
+    padding: 5%;
+}
+.bontyt{
+    background-color: #000;
+}
+.bar{
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+}
+.site_web .icon{
+    display:visible;
+}
+
+@media screen and (max-width: 600px) {
+    .telNumber{
+        display: none;
+    }
+    .icon_liens{
+        display: none;    
+    }
+}
+
+
+
+/* Slideshow container */
+.slideshow-container {
+  width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default 
+.mySlides {
+  display: none;
+}*/
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+.defilImg{
+    margin-top: 1%;
+}
+.AboutUs{
+    display: inline-block;
+    font-weight: 500;
+    font-size: 1.142rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #cee002;
+    margin-bottom: 1rem;
+}
+.little_title{
+    font-weight: 600;
+    font-size: 2.571rem;
+    line-height: 1.166;
+    color: #000;
+    letter-spacing: 0;
+}
+.image_respons{
+    width: 100%;
+}
+.Phototext{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+}
+@media screen and (max-width: 600px) {
+    .Phototext{
+        flex-direction: column;
+    }
+}
+.experience-box {
+    position: relative;
+    white-space: nowrap;
+    margin: 6rem 0;
+}
+.experience-border {
+    display: inline-block;
+    vertical-align: middle;
+    width: 12.15rem;
+    height: 12.15rem;
+    border: 0.357rem solid #cee002;
+}
+.experience-content {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    left: -8rem;
+    top: 0.2rem;
+}
+.experience-number {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 7.142rem;
+    line-height: 1;
+    font-weight: 600;
+    color: #000;
+}
+.experience-info {
+    display: inline-block;
+    vertical-align: middle;
+    margin: -1rem 0 0 0.8rem;
+    font-size: 1.57rem;
+    line-height: 1.181;
+    color: #000;
+}
+.Notfind{
+    width: 55%;
+}
+.paragraph{
+    margin-left: 17%;
+}
+.DImg{
+    margin-right: 55%;
+}
+@media screen and (max-width: 600px) {
+    .image_respons{
+        margin-left: 10%;
+    }
+}
+.bandeau{
+    margin-top: 2%;
+    margin-left: 17%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.informations{
+    width: 40%;
+    margin-left: 20%;
+    
+}
+.title-bandeau{
+    font-weight: 600;
+    font-size: 2.571rem;
+    line-height: 1.166;
+    color: #000;
+    letter-spacing: 0;
+}
+.All{
+    list-style: none;
+    font-size: 1.142rem;
+    font-weight: 6;
+    color: #000;
+    letter-spacing: 0.025em;
+    line-height: 2.1428;
+}
+.Building{
+    margin-left: 3%;
+    list-style: none;
+    font-size: 1.142rem;
+    font-weight: 6;
+    color: #000;
+    letter-spacing: 0.025em;
+    line-height: 2.1428;
+}
+.I_E{
+    margin-left: 3%;
+    list-style: none;
+    font-size: 1.142rem;
+    font-weight: 6;
+    color: #000;
+    letter-spacing: 0.025em;
+    line-height: 2.1428;
+}
+/*.VAP{
+    width: 5%;
+}*/
+.footer{
+    margin-top: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+@media screen and (max-width: 600px) {
+    .informations_2{
+        display: none;
+    }
+    .informations_3{
+        display: none;    
+    }
+    .informations_4{
+        display: none;
+    }
+}
