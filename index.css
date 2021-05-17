@@ -273,6 +273,12 @@ body{
     margin-left: 20%;
     
 }
+@media screen and (max-width: 600px) {
+    .informations{
+        width: 20%;
+        margin-left: 10%;
+    }
+}
 .title-bandeau{
     font-weight: 600;
     font-size: 2.571rem;
@@ -305,6 +311,13 @@ body{
     color: #000;
     letter-spacing: 0.025em;
     line-height: 2.1428;
+}
+
+@media screen and (max-width: 600px) {
+    .VAP{
+        width: 20%;
+        margin-left: 10%;
+    }
 }
 /*.VAP{
     width: 5%;
